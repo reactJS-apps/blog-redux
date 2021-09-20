@@ -1,4 +1,4 @@
-export default (state = [], action) => {
+export default function usersReducer(state = [], action) {
   switch (action.type) {
     case 'FETCH_USER':
       return [...state, action.payload];
@@ -6,4 +6,4 @@ export default (state = [], action) => {
     default:
       return state;
   }
-};
+}
