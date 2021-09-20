@@ -12,7 +12,7 @@ class PostList extends React.Component {
     return this.props.posts.map((post) => {
       return (
         <div className="item" key={post.id}>
-          <i className="large middle aligned icon user"></i>
+          <i className="huge middle aligned icon user"></i>
           <div className="content">
             <div className="description">
               <h2>{post.title}</h2>
